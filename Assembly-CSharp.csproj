@@ -50,11 +50,7 @@
      <Compile Include="Assets\Effects\ImageEffectBase.cs" />
      <Compile Include="Assets\Effects\ImageEffects.cs" />
      <Compile Include="Assets\Effects\SSAOEffect.cs" />
-     <Compile Include="Assets\Scripts\CharacterControllerLogic.cs" />
-     <Compile Include="Assets\Scripts\Controller.cs" />
-     <Compile Include="Assets\Scripts\DustController.cs" />
-     <Compile Include="Assets\Scripts\SceneViewCameraFollower.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\DustAnimator.cs" />
      <None Include="Assets\Effects\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\ShowAlphaChannel.shader" />
@@ -86,8 +82,6 @@
      <None Include="Assets\Effects\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{5FA7EF93-712F-3A36-757C-19FBDD8A0675}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>

@@ -1,8 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{2F02A4B7-EA7D-B93E-6B0B-AA83D47E0453}") = "DustUnity", "Assembly-CSharp-firstpass-vs.csproj", "{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}"
-EndProject
 Project("{2F02A4B7-EA7D-B93E-6B0B-AA83D47E0453}") = "DustUnity", "Assembly-CSharp-vs.csproj", "{1C89C632-B37C-8C73-BDEE-079F35815194}"
 EndProject
 Project("{2F02A4B7-EA7D-B93E-6B0B-AA83D47E0453}") = "DustUnity", "Assembly-CSharp-Editor-vs.csproj", "{88914B95-BA19-D130-043D-131BCBF51B18}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C89C632-B37C-8C73-BDEE-079F35815194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C89C632-B37C-8C73-BDEE-079F35815194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C89C632-B37C-8C73-BDEE-079F35815194}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-										GlobalSection(MonoDevelopProperties) = preSolution
+																																																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

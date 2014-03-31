@@ -50,11 +50,7 @@
      <Compile Include="Assets\Effects\ImageEffectBase.cs" />
      <Compile Include="Assets\Effects\ImageEffects.cs" />
      <Compile Include="Assets\Effects\SSAOEffect.cs" />
-     <Compile Include="Assets\Scripts\CharacterControllerLogic.cs" />
-     <Compile Include="Assets\Scripts\Controller.cs" />
-     <Compile Include="Assets\Scripts\DustController.cs" />
-     <Compile Include="Assets\Scripts\SceneViewCameraFollower.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\DustAnimator.cs" />
      <None Include="Assets\Effects\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\ShowAlphaChannel.shader" />
@@ -87,10 +83,6 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

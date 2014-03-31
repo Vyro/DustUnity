@@ -52,7 +52,7 @@
      <Compile Include="Assets\Effects\CameraInfo.js" />
      <Compile Include="Assets\Effects\PostEffectsBase.js" />
      <Compile Include="Assets\Effects\PostEffectsHelper.js" />
-     <Compile Include="Assets\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Scripts\DustCharacterControl.js" />
      <None Include="Assets\Effects\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Effects\_Sources\Shaders\ShowAlphaChannel.shader" />
@@ -85,10 +85,6 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{4D9C0CC0-FD59-7EAE-0CF4-54A851A12664}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
